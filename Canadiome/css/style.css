@@ -1,0 +1,273 @@
+/* resetting browser stuff */
+* { box-sizing: border-box; }
+  html,body   {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+/* styling page */
+body     {
+    background: #FFF;
+    font-family: 'Allerta', Helvetica, sans-serif;
+  }  
+/* styling our header */
+header   {
+    background: #222;
+    color: #FFF;
+    padding: 20px 30px;
+  }
+  header h1{
+    font-size: 0;
+  }
+/* logo */
+#logo         {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    width: 49%;
+  }
+  #logo img    {
+    width: 50px;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  #logo span   {
+    display: inline-block;
+  }
+/* main navigation */
+nav     {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+    }
+    nav ul   {
+    list-style: none;
+    margin: 0;
+    }
+    nav ul li {
+        display: inline-block;
+    }
+    nav ul li a    {
+        color: #FFF;
+        text-decoration: none;
+        display: block;
+        padding: 10px 15px;
+        border-radius: 3px;
+        transition: 0.3s ease all;
+        }
+        nav ul li a:hover   {
+            background: #444;
+            }
+/* styling our footer */
+footer   {
+    background: #222;
+    color: #777;
+    padding: 40px;
+    text-align: center;
+  }
+  footer img   {
+    display: block;
+    border-radius: 5px;
+    width: 80px;
+    margin: 0 auto 10px;
+  }
+  
+  /* styling our main content */
+  .hero           {
+    min-height: 850px;
+    
+    text-align: center;
+    background-image: url('img/backgroundDesktop.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100px;
+  }
+  img { max-width: 100%; 
+    height: auto; }
+  .hero-content   {
+    color: #FFF;
+    padding-top: 130px;
+  }
+  .hero-content h1   {
+    font-size: 100px;
+    margin: 0;
+  }
+  .hero-content p    {
+    font-size: 50px;
+  }
+  .hero-content a    {
+    display: inline-block;
+    border: 3px solid #FFF;
+    border-radius: 3px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #FFF;
+    padding: 10px 15px;
+    transition: 0.3s ease all;
+  }
+  .hero-content a:hover{
+    background: #222;
+  }
+  html, body {
+    overflow: visible;
+    }
+  
+  /* basic site sections */
+  .site-section   {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .site-section-secondary   {
+    background: #EFEFEF;
+  }
+  .site-section-inside   {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .section-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .section-header h2  {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #777;
+  }
+  
+  /* feature boxes */
+  .feature-box   {
+    display: inline-block;
+    width: 33%;
+    padding: 20px 20px;
+  }
+  .feature-box img  {
+    margin-bottom: 12px;
+    width: 80px;
+  }
+  .feature-box h5   {
+    font-size: 20px;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+  .feature-box p{
+    color: rgb(51, 51, 51);
+  }
+
+    /*Discover section*/
+    img{
+      max-width: 100%;
+      max-height: 100%;
+      display: block;     /* remove extra space below image */
+      
+    } 
+    .picture{
+      width: 800px;        
+      border: 2px solid black;
+      text-align: center;
+      display: block;
+    }
+  @media only all and (max-width: 768px) {
+    .hero{
+      min-height: 850px;      
+      text-align: center;
+      background-image: url('img/backgroundHome.jpg');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 100px;
+    }
+    .hero-content h1{
+      font-size: 80px;
+    }
+    .hero-content p {
+      font-size: 40px;
+    }
+    nav{
+      margin:0;
+      padding-top: 10px;
+	    float: center;
+	    width: 200px;
+    }
+    nav ul li a{
+      display:block;
+      padding:0.2em;
+      width:auto;
+      font-size: 25px;
+      text-align: center;
+      border-bottom: 1px;
+    }
+    nav ul li{
+      display: block;     
+    }
+    main{
+      padding-top: 1px;
+    }
+    #logo         {
+      display: inline-block;
+      color: #FFF;
+      text-decoration: none;
+      width: 20%;
+    }
+    #logo img    {
+      width: 0px;
+      border-radius: 0px;
+      margin-right: 0px;
+      vertical-align: middle;
+    }
+    #logo span   {
+      display: block;
+    }
+    header h1{
+      font-size: 35px;
+      text-align: center;
+    }
+    header h1 a:visited{
+      color: white;
+    }
+    header h1 a:link{
+      color: white;
+      text-decoration: none;
+    }
+
+    /*Discover section*/
+    img{
+      max-width: 100%;
+      max-height: 100%;
+      display: block;     /* remove extra space below image */
+      
+    } 
+    .picture{
+      width: 300px;        
+      border: 2px solid black;
+    }
+}
+
+/* Tablet */
+@media only all and (max-width: 1024px) {
+  body{
+		margin: 0px;
+  }
+  main{
+		margin:0;
+		font-size:90%;
+  }
+  /*Discover section*/
+  img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;     /* remove extra space below image */
+    
+  } 
+  .picture{
+    width: 500px;        
+    border: 2px solid black;
+  }
+}
